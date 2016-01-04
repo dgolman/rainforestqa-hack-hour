@@ -1,0 +1,14 @@
+{
+  	"manifest_version": 2,
+  	"name": "Mark all as Read",
+  	"version": "0.1",
+  	"content_scripts": [
+	    {
+	      "matches": [
+	        "https://mail.google.com/*", 
+	        "http://mail.google.com/*"
+	      ],
+	      "js": ["jquery-2.1.4.min.js", "content.js"]
+	    }
+	]
+}
